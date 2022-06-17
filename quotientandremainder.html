@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Take two numbers and find the quotient and remainder.
+
+        Input:
+        Input are provided as functional parameter.
+        
+        Output:
+        Return comma seperated quotient and remainder.
+        
+        Eg 1:
+        
+        10
+        2
+        
+        output:
+        
+        5,0
+        
+        Eg 2:
+        
+        7
+        3
+        
+        output :
+        
+        2,1
+        
+        Note :- If you cannot divide the numbers then the output must be "-1,-1".
+    </pre>
+    <script>
+        function quo_rem(a,b){
+  //Write your code here
+  let ans = Math.floor(a/b)+","+(a%b)
+  return(ans);
+  //make sure you return the output string
+}
+//console.log(quo_rem(10,2))
+document.write(quo_rem(10,2))
+exports.quo_rem = quo_rem
+    </script>
+</body>
+</html>
