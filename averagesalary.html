@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Take salary of five employees and print the average salary of all the employees.
+
+Input: Input is provided as functional parameter.
+
+Output: Return the average salary.
+
+Eg 1:
+
+10 20 30 40 50
+
+output:
+
+30
+
+Eg 2:
+
+10 22 31 40 50
+
+output :
+
+30.6
+    </pre>
+    <script>
+        function average_salary(a,b,c,d,e){
+  //write your code here
+  let avg=(a+b+c+d+e)/5
+  // make sure you return the answer
+  return (avg)
+}
+//console.log(average_salary(10,20,30,40,50))
+document.write(average_salary(10,20,30,40,50))
+exports.average_salary = average_salary
+    </script>
+</body>
+</html>

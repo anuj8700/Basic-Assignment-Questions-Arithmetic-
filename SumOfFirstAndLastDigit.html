@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Take a number and return the sum of first and last digit.
+
+Input: Input is provided as functional parameter.
+
+Output: Return the sum.
+
+Eg 1:
+
+10
+
+Output:
+
+1
+
+Eg 2:
+
+78
+
+Output :
+
+15
+    </pre>
+    <script>
+        function sum(a){
+  // write your code here
+let last=a%10
+let first=Math.floor(a/10)
+return first+last
+  // make sure you return the answer
+}
+//console.log(sum(10))
+document.write(sum(10))
+exports.sum = sum
+    </script>
+</body>
+</html>

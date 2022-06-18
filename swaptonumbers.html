@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Take two numbers and swap them.
+
+Input:
+Input numbers are provided as functional Parameters
+
+Output:
+Return comma seperated values.
+
+Eg 1:
+
+10
+2
+
+output:
+
+2,10
+
+Eg 2:
+
+-10
+2
+
+output :
+
+2,-10
+    </pre>
+    <script>
+        function swap(a,b){
+  // Write your code here
+
+  //make sure you return the output string
+  let sum = a+b;
+  let x = sum-a;
+  let y = sum-b;
+  return (`${x},${y}`)
+}
+
+//console.log(swap(-10,2))
+document.write(swap(-10,2))
+exports.swap = swap
+    </script>
+</body>
+</html>

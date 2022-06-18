@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Take temperature as input and convert it from fahrenheit to celsius.
+
+Input: Input is provided as functional parameter.
+
+Output: Return the answer
+
+Eg 1:
+
+77
+
+Output:
+
+25
+
+Eg 2:
+
+89.60
+
+Output :
+
+32
+
+Note :-
+
+Formula for converting Celsius to Fahrenheit is : F-32 * (5/9)
+    </pre>
+    <script>
+        function ftoc(a){
+  // write your code here
+  // make sure you return the answer
+  return (a-32)*(5/9)
+  //C = (F - 32)*(5/9)
+}
+//console.log(ftoc(77))
+document.write(ftoc(77))
+exports.ftoc = ftoc
+    </script>
+</body>
+</html>

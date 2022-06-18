@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Take a number and print out the first digit of the number.
+
+Input: Input is provided as functional parameter.
+
+Output: Return the output
+
+Eg 1:
+
+123
+
+Output:
+
+1
+
+Eg 2:
+
+-534
+
+Output :
+
+5
+    </pre>
+    <script>
+        function first_digit(a){
+  //write your code here
+  let firstDigit;
+   firstDigit=Math.floor(a/100);
+  // secondpart=firstDigit
+  return(firstDigit);
+}
+// return the output
+//console.log(first_digit(123))
+document.write(first_digit(123))
+exports.first_digit = first_digit
+    </script>
+</body>
+</html>

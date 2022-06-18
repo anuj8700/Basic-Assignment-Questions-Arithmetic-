@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Aman is buying the apple at price x and selling the same apple to Ankush at price y. Take input as x and y and print the profit of Aman.
+
+Input:
+Input is provided as functional parameter.
+
+Output:
+Return the answer.
+
+Eg 1:
+
+X = 100
+Y = 120
+
+Output:
+
+20
+
+Eg 2:
+
+X = 7
+Y = 3
+
+Output :
+
+0
+    </pre>
+    <script>
+        function find_profit(x,y){
+  // write your code here
+  // make sure you return the output
+  if(y>=x){
+    return(y-x)
+  }
+   else{
+     return 0
+   }
+}
+
+//console.log(find_profit(7,3))
+document.write(find_profit(7,3))
+exports.find_profit = find_profit
+    </script>
+</body>
+</html>

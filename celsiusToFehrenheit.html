@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Take temperature as input and convert it from celsius to fahrenheit.
+
+Input: Input is provided as functional parameter.
+
+Output: Return the answer
+
+Eg 1:
+
+32
+
+Output:
+
+89.60
+
+Eg 2:
+
+25
+
+Output :
+
+77
+
+Note :-
+
+Formula for converting Celsius to Fahrenheit is : (9/5)*C+32.
+    </pre>
+    <script>
+        function ctof(a){
+  // write your code here
+  // make sure you return the answer
+  return a*1.8+32;
+  //multiply by 1.8 (or 9/5) and add 32.
+}
+//console.log(ctof(25))
+document.write(ctof(25))
+exports.ctof = ctof
+    </script>
+</body>
+</html>

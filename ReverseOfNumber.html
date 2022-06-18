@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Take a 3 digit number and print the reverse of that number.
+
+Input: Input is provided as functional parameter.
+
+Output: Return comma seperated value
+
+Eg 1:
+
+156
+
+Output:
+
+6,5,1
+
+Eg 2:
+
+-628
+
+output :
+
+-,8,2,6
+    </pre>
+    <script>
+        function reverse(a){
+  // write your code here
+   output =0;
+  let isNegative = false;
+
+  let first = Math.floor(a/100);
+  let second=Math.floor(a/10)%10;
+  let third=a%10;
+  return(third+","+second+","+first);
+}
+  // make sure you return the answer}
+//console.log(reverse(-628))
+document.write(reverse(-628))
+exports.reverse = reverse
+    </script>
+</body>
+</html>
